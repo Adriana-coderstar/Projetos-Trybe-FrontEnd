@@ -27,16 +27,21 @@ body {
 
 .movie-card {
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
+  box-shadow: 10px 5px 5px #dcdcdc;
   display: flex;
   flex-direction: column;
   height: 450px;
   margin: 5px;
   overflow: hidden;
+  transition: all 0.5s;
   width: 300px;
+
 }
 
+.movie-card:hover {
+  transform: scale(1.2);
+}
 
 .movie-card-image {
   width: 100%;
